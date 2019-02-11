@@ -13,7 +13,7 @@ namespace MyRESTSample.Services
 
         public BooksService()
         {
-            _books.TryAdd(3, new Book { BookId = 3, Title = "Professional C# 6", Publisher = "Wrox Press" });
+            _books.TryAdd(1, new Book { BookId = 1, Title = "Professional C# 6", Publisher = "Wrox Press" });
             _books.TryAdd(2, new Book { BookId = 2, Title = "Professional C# 7", Publisher = "Wrox Press" });
         }
 
