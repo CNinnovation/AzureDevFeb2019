@@ -17,6 +17,7 @@ namespace MyWebApp.Controllers
 
         public IActionResult Privacy()
         {
+            // privacy info
             return View();
         }
 
