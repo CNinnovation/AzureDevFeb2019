@@ -1,0 +1,22 @@
+﻿@using AspnetCoreWithMvc.Models
+@model IEnumerable<Book>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    this is the index page
+</p>
+
+<p>
+@foreach (var book in Model)
+{
+    <div>@book.Title</div>
+    <div>@book.Publisher</div>
+    <br />
+}
+</p>
+
