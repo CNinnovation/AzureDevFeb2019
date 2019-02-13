@@ -26,5 +26,15 @@ namespace MyWebApp.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public int Add(int x, int y)
+        {
+            return x + y;
+        }
+
+        public int Subtract(int x, int y)
+        {
+            return x - y;
+        }
     }
 }
